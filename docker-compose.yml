@@ -5,7 +5,5 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        links: 
-            - "db:database"
         ports: 
             - "8002:80"
