@@ -9,17 +9,3 @@ services:
             - "db:database"
         ports: 
             - "8002:80"
-    db:
-        image: mysql:5.7
-        restart: always
-        environment:
-            MYSQL_DATABASE: ''
-            MYSQL_USER: ''
-            MYSQL_PASSWORD: ''
-            MYSQL_ROOT_PASSWORD: ''
-        ports:
-            - "8003:3306"
-        expose:
-            - 3306
-        volumes:
-        - ./data/db:/var/lib/mysql
