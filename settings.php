@@ -8,8 +8,8 @@ class Settings {
         $this->lang = 'it_IT.utf8';
 
         // Database information
-        $this->host = 'database';
-        $this->port = 3306;
+        $this->host = '';
+        $this->port = ;
 
         $this->database = '';
 
