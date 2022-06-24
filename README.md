@@ -1,3 +1,3 @@
 # README #
 
-AncientRealms dockerized version of LiteBans' Banlog
+Dockerized version of LiteBans' Banlog
